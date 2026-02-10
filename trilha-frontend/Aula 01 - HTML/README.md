@@ -169,7 +169,7 @@ Você reparou que alguns códigos estão mais para a direita que outros? Chamamo
 
 ---
 
-## 4. HTML Semântico (O código que "fala")
+## 4. HTML Semântico 
 
 Antigamente, os sites eram feitos apenas com uma tag genérica chamada `<div>`. O código virava uma "sopa de letrinhas" onde tudo era igual. O problema é: visualmente funciona, mas para o **Google** e para **Leitores de Tela** (usados por pessoas com deficiência visual), o site é um amontoado de nada.
 
