@@ -279,6 +279,8 @@ Para construir nosso primeiro desafio, você precisará destas tags:
 - **`<h1>` ao `<h6>`**: Títulos. O `h1` é o mais importante (tente usar apenas um por página) e o `h6` o menos relevante.
     
 - **`<p>`**: Parágrafos de texto comum.
+
+  ![](assets/hExemplo.png)
     
 
 ### Listas
@@ -289,19 +291,20 @@ Para construir nosso primeiro desafio, você precisará destas tags:
     
     
     ``` HTML
+    <p>Lista de compra para o mercado:</p>
     <ul>
         <li>Arroz</li>
         <li>Feijão</li>
     </ul>
     ```
-    
+   ![](assets/listExemplo.png) 
 
 ### Links
 
 - **`<a>`**: Cria hiperlinks.
     
     - Ex: `<a href="https://google.com">Ir para o Google</a>`
-        
+      ![](assets/linkExemplo.png)
 
 ### Imagens (e o perigo dos caminhos)
 
@@ -352,7 +355,8 @@ Além das estruturais, existem tags que ajudam a formatar o texto ou organizar o
     - `<strong>`: Deixa o texto em **negrito**.
         
     - `<em>`: Deixa o texto em _itálico_.
-        
+ 
+      ![](assets/additionalTagsExemplos.png)        
 ---
 
 ## 6. Curiosidade: Por que meu título pulou linha? (Block vs Inline)
@@ -368,7 +372,7 @@ Você vai notar que alguns elementos empurram os outros para baixo, enquanto alg
     - _Exemplos:_ `<a>` (links), `<img>` (imagens), `<strong>` (negrito).
         
 
-_Tente colocar dois links seguidos no seu código e veja eles ficarem na mesma linha!_
+	![](assets/BlockInlineExemplos.png)
 
 ---
 
