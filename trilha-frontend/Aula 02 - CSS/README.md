@@ -737,7 +737,7 @@ body {
   ```
 
 - No style.css:
-```
+``` css
   /* Fonte padrão do site (Google Fonts + fallback) */
 body {
     font-family: 'Poppins', Arial, sans-serif;
