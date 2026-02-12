@@ -663,6 +663,137 @@ h1 {
 }
 ```
 
+Exemplo geral sobre tudo: 
+
+- No arquivo .html:
+``` html
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipografia e Google Fonts</title>
+
+    <!-- Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tipografia no CSS</h1>
+
+    <p class="serif">
+        Este texto usa uma fonte SERIF (com pezinho).
+        Exemplo: Times New Roman.
+    </p>
+
+    <p class="sans">
+        Este texto usa uma fonte SANS-SERIF (sem pezinho).
+        Exemplo: Poppins / Arial.
+    </p>
+
+    <p class="mono">
+        Este texto usa uma fonte MONOSPACE.
+        Exemplo: Courier New.
+    </p>
+
+    <hr>
+
+    <h2>Font Weight (Peso da Fonte)</h2>
+
+    <p class="light">
+        Peso 300 (Light) — Texto fininho.
+    </p>
+
+    <p class="regular">
+        Peso 400 (Regular) — Texto normal.
+    </p>
+
+    <p class="bold">
+        Peso 700 (Bold) — Texto em negrito.
+    </p>
+
+    <p class="black">
+        Peso 900 (Black) — Texto super pesado.
+    </p>
+
+    <hr>
+
+    <h2>Exemplo Real de Site</h2>
+
+    <p class="site-texto">
+        Este parágrafo simula o texto real de um site moderno,
+        usando Google Fonts com fallback.
+    </p>
+
+    <pre class="codigo">
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+    </pre>
+
+</body>
+</html>
+  ```
+
+- No style.css:
+```
+  /* Fonte padrão do site (Google Fonts + fallback) */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* Categorias de fonte */
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.mono {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Pesos da fonte */
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.black {
+    font-weight: 900;
+}
+
+/* Simulação de site real */
+
+.site-texto {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.codigo {
+    font-family: 'Courier New', monospace;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+```
+Resultado:
+
+![](assets/section4example.png)
+
 ## 5. Cores (Hex Codes)
 
 No começo, usamos palavras em inglês (`red`, `blue`, `gold`). O problema é que existem apenas 140 nomes de cores, mas nossos monitores mostram **16 milhões**. Para acessar essas milhões de cores, usamos códigos matemáticos.
