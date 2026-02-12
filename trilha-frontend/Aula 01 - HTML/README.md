@@ -335,6 +335,8 @@ Para construir nosso primeiro desafio, você precisará destas tags:
 	    3. **SEO:** O Google usa esse texto para entender a imagem e mostrá-la nos resultados do "Google Imagens".
         
 	- _Dica:_ Evite `alt="foto"`. Seja descritivo: `alt="Foto de perfil do Joãozinho usando óculos de Sol"`.
+
+   ![](assets/imgPathExemplos.png)
         
 
 
