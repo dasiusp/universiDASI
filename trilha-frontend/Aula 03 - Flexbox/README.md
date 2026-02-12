@@ -535,7 +535,7 @@ O segredo dos profissionais é misturar os dois.
 2. O **Flexbox** arruma a mobília dentro de cada cômodo (O sofá fica ao lado da mesa).
     
 
-**Exemplo de Código (Mental):**
+Exemplo de Código:
 
 ``` css
 /* O Site (Macro) */
@@ -550,6 +550,136 @@ O segredo dos profissionais é misturar os dois.
     justify-content: space-between;
 }
 ```
+
+Exemplo mais geral:
+- No .html:
+``` html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid + Flexbox</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="site">
+
+    <!-- HEADER (Flexbox) -->
+    <header class="header">
+      <div class="logo">LOGO</div>
+
+      <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+      </nav>
+    </header>
+
+    <!-- SIDEBAR (Flexbox) -->
+    <aside class="sidebar">
+      <a href="#">Dashboard</a>
+      <a href="#">Perfil</a>
+      <a href="#">Configurações</a>
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="content">
+      <h1>Dashboard</h1>
+
+      <!-- Cards (Flexbox) -->
+      <div class="cards">
+        <div class="card">Vendas</div>
+        <div class="card">Usuários</div>
+        <div class="card">Relatórios</div>
+      </div>
+    </main>
+
+  </div>
+
+</body>
+</html>
+
+```
+- No style.css:
+
+``` css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== GRID = ESTRUTURA DO SITE (MACRO) ===== */
+.site {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content";
+
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 60px 1fr;
+
+  min-height: 100vh;
+}
+
+/* Áreas do Grid */
+.header  { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+
+/* ===== FLEXBOX = ARRUMAÇÃO INTERNA (MICRO) ===== */
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 24px;
+  background-color: #1f2933;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 16px;
+  background-color: #f3f4f6;
+}
+
+/* Conteúdo */
+.content {
+  padding: 24px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card {
+  flex: 1;
+  padding: 24px;
+  background-color: #e5e7eb;
+  border-radius: 8px;
+  text-align: center;
+}
+```
+Resultado:
+
+![](assets/section4example.png)
 
 ## 5. Responsividade: O Site Camaleão (Media Queries)
 
