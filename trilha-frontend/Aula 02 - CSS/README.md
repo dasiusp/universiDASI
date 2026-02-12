@@ -101,6 +101,7 @@ Você pode escrever CSS em três lugares, mas só um é o ideal para grandes pro
             color: purple;
         }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -110,9 +111,9 @@ Você pode escrever CSS em três lugares, mas só um é o ideal para grandes pro
     <!-- CSS INTERNO -->
     <h2>Título com CSS Interno</h2>
 
-    <!-- CSS EXTERNO (simulado) -->
+    <!-- CSS EXTERNO -->
     <p class="externo">
-        Parágrafo que seria estilizado por um arquivo externo.
+        Parágrafo que sera estilizado por um arquivo externo (o style.css!).
     </p>
 
 </body>
