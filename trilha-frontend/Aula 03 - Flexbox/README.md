@@ -311,7 +311,7 @@ Tudo começa no **Container (Pai)**.
     2. Uma automática (`auto`) que cresce dependendo do tamanho do texto.
         
 
-### 3.2 A Unidade Mágica: `fr` (Fraction)
+### 3.2 A Unidade `fr` (Fraction)
 
 Esqueça porcentagens (`33.33%`). O Grid trouxe a unidade `fr` (fração do espaço livre).
 
@@ -405,6 +405,67 @@ Essa é a técnica mais avançada e intuitiva. Você dá nomes aos bois e desenh
 |**`gap`**|Espaço entre as células (calhas).|Separar fotos sem usar margin.|
 |**`span`**|Faz um item ocupar várias casas.|Um post de destaque no blog.|
 |**Areas**|Nomeia regiões do layout.|Estrutura macro do site (Layout).|
+
+Exemplo geral:
+
+- No .html:
+``` html
+
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo Grid Layout</title>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="site">
+    <header class="header">Header</header>
+    <aside class="sidebar">Menu Lateral</aside>
+    <main class="main">Conteúdo Principal</main>
+    <footer class="footer">Footer</footer>
+  </div>
+
+</body>
+</html>
+```
+
+- No style.css:
+
+``` css
+  .site {
+  display: grid;
+
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 80px 1fr 60px;
+
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "footer  footer";
+
+  height: 100vh;
+  gap: 16px;
+}
+
+/* Ligando cada área */
+.header  { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.main    { grid-area: main; }
+.footer  { grid-area: footer; }
+
+/* Só pra visualizar melhor */
+.header, .sidebar, .main, .footer {
+  background: #ddd;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+  ```
+
+![](assets/section3example.png)
 
 ## 4. Batalha: Flexbox vs Grid (Quem ganha?)
 
