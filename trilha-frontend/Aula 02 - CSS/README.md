@@ -435,6 +435,119 @@ Imagine que você tem o seguinte código conflitante. O título será vermelho o
 
 > **Dica de Ouro:** Sempre tente usar **Classes**. Elas têm força suficiente para funcionar, mas são fáceis de sobrescrever se precisar.
 
+Exemplo geral:
+
+´´´ html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Seletores CSS</title>
+
+    <style>
+        /* Seletor Universal */
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Seletor de Tag */
+        p {
+            color: gray;
+        }
+
+        /* Seletor de Classe */
+        .btn {
+            padding: 10px 15px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-sucesso {
+            background-color: green;
+        }
+
+        .btn-perigo {
+            background-color: red;
+        }
+
+        /* Seletor de ID */
+        #logo-principal {
+            font-size: 28px;
+            color: purple;
+        }
+
+        /* Agrupamento */
+        h2, h3 {
+            color: navy;
+        }
+
+        /* Descendência */
+        header a {
+            color: orange;
+        }
+
+        footer a {
+            color: green;
+        }
+
+        /* Especificidade (briga) */
+        #titulo {
+            color: red;
+        }
+
+        .texto {
+            color: blue;
+        }
+
+        h1 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2 id="logo-principal">Meu Site</h2>
+        <a href="#">Link do Header</a>
+    </header>
+
+    <main>
+        <p>Este parágrafo usa seletor de TAG (p).</p>
+
+        <p class="texto">
+            Este parágrafo usa seletor de CLASSE (.texto).
+        </p>
+
+        <button class="btn btn-sucesso">
+            Botão Sucesso (2 classes)
+        </button>
+
+        <button class="btn btn-perigo">
+            Botão Perigo (2 classes)
+        </button>
+
+        <hr>
+
+        <h1 id="titulo" class="texto">
+            Quem ganha a briga?
+        </h1>
+
+        <p>
+            Mesmo tendo classe e tag, o ID ganha.
+        </p>
+    </main>
+
+    <footer>
+        <a href="#">Link do Footer</a>
+    </footer>
+    
+</body>
+</html>
+´´´
+
+
 
 ## 4. Tipografia e Google Fonts
 
