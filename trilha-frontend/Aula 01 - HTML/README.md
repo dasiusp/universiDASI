@@ -304,7 +304,9 @@ Para construir nosso primeiro desafio, você precisará destas tags:
 - **`<a>`**: Cria hiperlinks.
     
     - Ex: `<a href="https://google.com">Ir para o Google</a>`
-      ![](assets/linkExemplo.png)
+ 
+
+  ![](assets/linkExemplo.png)
 
 ### Imagens (e o perigo dos caminhos)
 
@@ -372,7 +374,7 @@ Você vai notar que alguns elementos empurram os outros para baixo, enquanto alg
     - _Exemplos:_ `<a>` (links), `<img>` (imagens), `<strong>` (negrito).
         
 
-	![](assets/BlockInlineExemplos.png)
+	![](assets/BlockInlineExemplo.png)
 
 ---
 
