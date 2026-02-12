@@ -221,6 +221,62 @@ Antigamente, usávamos `margin-right` no item para separar um do outro. Isso cau
 }
 ```
 
+Exemplo geral:
+
+- No .html:
+``` html
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Header com Flexbox</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="logo">LOGO</div>
+
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+
+    <button class="login">Login</button>
+  </header>
+
+</body>
+</html>
+  ```
+- No style.css:
+``` css
+  .topo {
+  display: flex;
+  justify-content: space-between; /* espalha esquerda ↔ direita */
+  align-items: center;            /* centraliza verticalmente */
+  padding: 16px 32px;
+  background: #222;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 20px; /* espaço entre os links */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.login {
+  padding: 8px 16px;
+}
+  ```
+![](assets/section2example.png)
+
 ## 3. CSS Grid: O Arquiteto (2 Dimensões)
 
 Enquanto o Flexbox é ótimo para alinhar botões ou itens em uma lista (1D), o Grid foi feito para diagramar **páginas inteiras** (2D). Ele transforma o seu container em um tabuleiro de xadrez onde você controla onde cada peça começa e onde termina.
