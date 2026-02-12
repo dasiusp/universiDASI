@@ -437,7 +437,7 @@ Imagine que você tem o seguinte código conflitante. O título será vermelho o
 
 Exemplo geral:
 
-´´´ html
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -545,7 +545,7 @@ Exemplo geral:
     
 </body>
 </html>
-´´´
+```
 
 
 
