@@ -546,7 +546,9 @@ Exemplo geral:
 </body>
 </html>
 ```
+Resultado:
 
+![](assets/section3example.png)
 
 
 ## 4. Tipografia e Google Fonts
