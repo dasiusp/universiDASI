@@ -336,7 +336,7 @@ Para construir nosso primeiro desafio, você precisará destas tags:
         
 	- _Dica:_ Evite `alt="foto"`. Seja descritivo: `alt="Foto de perfil do Joãozinho usando óculos de Sol"`.
 
-   ![](assets/imgPathExemplos.png)
+   ![](assets/imgPathsExemplos.png)
         
 
 
