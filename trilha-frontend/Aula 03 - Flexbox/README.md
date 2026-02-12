@@ -197,7 +197,7 @@ Agora, imagine o alinhamento vertical (altura). Como os itens se comportam em re
     
 - **`flex-end`:** Colados no chão.
     
- **💡 O "Cheat Code" da Centralização Perfeita:** Quer centralizar algo exatamente no meio da tela (horizontal e vertical)?
+ **O "Cheat Code" da Centralização Perfeita:** Quer centralizar algo exatamente no meio da tela (horizontal e vertical)?
  
  ``` css
 .pai {
