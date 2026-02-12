@@ -769,43 +769,9 @@ Você não precisa comprar um iPhone e um Android para testar.
     
 4. Pronto! Agora você pode simular iPhone, iPad, Galaxy S20 direto no seu monitor.
 
-## 6. Exemplo Prático: Galeria de Fotos
-
-Vamos transformar uma lista de imagens vertical em um Grid de 3 colunas.
-
-**HTML:**
-
-``` html
-<section class="galeria">
-    <img src="foto1.jpg" alt="Foto 1">
-    <img src="foto2.jpg" alt="Foto 2">
-    <img src="foto3.jpg" alt="Foto 3">
-    <img src="foto4.jpg" alt="Foto 4">
-    <img src="foto5.jpg" alt="Foto 5">
-    <img src="foto6.jpg" alt="Foto 6">
-</section>
-```
-
-**CSS:**
-
-``` css
-.galeria {
-    display: grid;
-    /* Cria 3 colunas iguais */
-    grid-template-columns: repeat(3, 1fr);
-    /* Espaço entre as fotos */
-    gap: 15px;
-}
-
-img {
-    width: 100%; /* Garante que a imagem não estoure o tamanho da coluna */
-    border-radius: 8px;
-}
-```
-
 ---
 
-## 7. Desafio: Galeria de Cards Responsiva
+## 6. Desafio: Galeria de Cards Responsiva
 
 Agora é sua vez de juntar tudo o que aprendeu.
 
