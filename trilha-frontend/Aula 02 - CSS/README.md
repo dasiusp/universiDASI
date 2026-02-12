@@ -165,7 +165,8 @@ Vamos imaginar que cada elemento do seu site é um **Quadro valioso pendurado nu
     - A margem é sempre transparente (invisível), ela só serve para empurrar as coisas para longe.
         
 
-### 2.2 Padding vs Margin: O Duelo Final
+
+### 2.2 Padding vs Margin
 
 A dúvida clássica: _"Quero dar espaço, uso qual?"_
 
@@ -184,6 +185,105 @@ A dúvida clássica: _"Quero dar espaço, uso qual?"_
 >     
 > - Se você aumentar a **Margin**, o botão continua pequeno, mas ninguém chega perto dele (fica isolado).
 >     
+
+
+Exemplo Geral:
+
+``` html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+
+    <style>
+        /* Código mágico profissional */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .caixa {
+            width: 200px;
+            height: 100px;
+
+            background-color: lightblue;   /* Content + Padding */
+            padding: 20px;                 /* PASPATUR */
+            border: 5px solid blue;        /* MOLDURA */
+            margin: 30px;                  /* ESPAÇO NA PAREDE */
+
+            font-weight: bold;
+        }
+
+        .botao-padding {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            border: none;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .botao-margin {
+            background-color: green;
+            color: white;
+            padding: 5px;
+            border: none;
+            margin: 30px;
+            cursor: pointer;
+        }
+
+        .comparacao {
+            border: 2px dashed gray;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Box Model na prática</h2>
+
+    <div class="caixa">
+        CONTEÚDO
+    </div>
+
+    <p>
+        A caixa acima tem:
+        padding (interno), border (moldura) e margin (espaço externo).
+    </p>
+
+    <hr>
+
+    <h3>Padding vs Margin (botões)</h3>
+
+    <div class="comparacao">
+        <button class="botao-padding">
+            Botão com MUITO padding
+        </button>
+
+        <button class="botao-margin">
+            Botão com MUITA margin
+        </button>
+    </div>
+
+    <p>
+         O primeiro botão é grande (padding).<br>
+         O segundo é pequeno, mas isolado (margin).
+    </p>
+
+</body>
+</html>
+
+```
+
+Resultado:
+
+![](assets/section2example.png)
+
 
 ### 2.3 O Resumo da Matemática (`box-sizing`)
 
