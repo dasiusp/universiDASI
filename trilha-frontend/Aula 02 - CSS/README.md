@@ -1023,68 +1023,7 @@ Resultado:
 
 ![](assets/section5example.png)
 
-## 6. Exemplo de Código: O "Card" Perfeito
-
-Vamos ver na prática como transformar um HTML simples em um componente visual usando o Box Model. Imagine que queremos criar um cartão de produto para uma loja virtual.
-
-### O HTML 
-
-``` html
-<div class="card-produto">
-    <h2>Tênis de Corrida</h2>
-    <p>O melhor tênis para sua maratona.</p>
-    <button>Comprar Agora</button>
-</div>
-```
-
-### O CSS 
-
-Analise os comentários para entender o que cada linha faz:
-
-``` css
-.card-produto {
-    /* 1. Tamanho e Cor (Content) */
-    width: 300px;              /* Largura fixa */
-    background-color: #f0f0f0; /* Fundo cinza claro */
-    
-    /* 2. Respiro Interno (Padding) */
-    padding: 20px;             
-    /* O texto desgruda da borda. Se tirar isso, fica feio! */
-
-    /* 3. A Moldura (Border) */
-    border: 2px solid #333;    /* Borda sólida cinza escuro */
-    border-radius: 10px;       /* Arredonda os cantos */
-
-    /* 4. Espaço Externo (Margin) */
-    margin: 50px auto;         
-    /* 50px em cima/baixo para afastar de outros elementos */
-    /* 'auto' nas laterais para CENTRALIZAR na tela */
-    
-    /* Extra: Fonte */
-    font-family: 'Arial', sans-serif;
-    text-align: center;        /* Centraliza o texto dentro do card */
-}
-
-button {
-    background-color: #ff5722;
-    color: white;
-    padding: 10px 20px;        /* Botão gordinho é melhor de clicar */
-    border: none;              /* Remove a borda padrão feia */
-    border-radius: 5px;
-    margin-top: 15px;          /* Afasta o botão do texto de cima */
-    cursor: pointer;           /* Mãozinha ao passar o mouse */
-}
-```
-
-### O que acontece aqui?
-
-1. **Sem Padding:** O texto "Tênis de Corrida" ficaria colado na linha preta da borda. O `padding: 20px` empurra o conteúdo para o centro.
-    
-2. **Sem Margin:** O card ficaria colado no canto superior esquerdo da tela. O `margin: 50px auto` empurra o card para o meio da página e para baixo.
-    
-3. **Botão:** Note que usamos `padding` no botão também! Isso faz ele ficar "gordinho" e clicável, sem aumentar o tamanho da fonte.
-
-## 7. Desafio Prático: Estilizando o Cartão de Bio
+## 6. Desafio Prático: Estilizando o Cartão de Bio
 
 Vamos pegar o HTML "feio" da Aula 01 e transformá-lo em um Card profissional centralizado na tela.
 
