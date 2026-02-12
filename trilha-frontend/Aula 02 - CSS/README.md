@@ -164,7 +164,11 @@ Vamos imaginar que cada elemento do seu site é um **Quadro valioso pendurado nu
         
     - A margem é sempre transparente (invisível), ela só serve para empurrar as coisas para longe.
         
+Sei que a definição desses 4 no começo pode ser meio confusa (eu pessoalmente até hoje confundo um com o outro kkkkk), então não se sinta mal se você não entender de primeira (ou de segunda, ou de terceira.... kkkkk). Aqui vai uma imagem mais ilustrativa para ajudar a fixar esses conceitos:
 
+![](assets/boxModelExample.png)
+
+Fonte: https://www.dio.me/articles/html-5-e-css-3
 
 ### 2.2 Padding vs Margin
 
