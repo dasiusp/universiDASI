@@ -88,6 +88,47 @@ Você pode escrever CSS em três lugares, mas só um é o ideal para grandes pro
         ```
         
     - _A Grande Vantagem:_ Esse único arquivo `style.css` pode controlar **todas** as páginas do seu site. Se você mudar a cor do fundo nele, 100 páginas mudam de cor instantaneamente. Isso é escala!
+  
+- Exemplo Geral:
+    No arquivo .html:
+ ``` HTML
+   <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS INTERNO */
+        h2 {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CSS INLINE -->
+    <h1 style="color: blue;">Título com CSS Inline</h1>
+
+    <!-- CSS INTERNO -->
+    <h2>Título com CSS Interno</h2>
+
+    <!-- CSS EXTERNO (simulado) -->
+    <p class="externo">
+        Parágrafo que seria estilizado por um arquivo externo.
+    </p>
+
+</body>
+</html>
+```
+
+No arquivo style.css:
+``` css
+/* CSS EXTERNO */
+.externo {
+    color: green;
+    font-size: 18px;
+}
+```
+Resultado:
+
 
 ## 2. Box Model (O Modelo de Caixa)
 
