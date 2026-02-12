@@ -47,6 +47,89 @@ No CSS Layout, nós **não** movemos os elementos individualmente. Nós damos or
 
 **O Erro Clássico:** O aluno tenta colocar `display: flex` na classe `.item`. **Não funciona!** O item não controla a si mesmo. Quem controla o alinhamento é o Pai.
 
+Exemplo geral:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pai e Filho no Flexbox</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* ERRADO: Flex no filho (não funciona) */
+        .item-errado {
+            display: flex;
+            justify-content: center;
+            background-color: #ffcccc;
+        }
+
+        /* CERTO: Flex no pai (funciona) */
+        .container-certo {
+            display: flex;              /* O PAI manda */
+            justify-content: center;    /* Centraliza os FILHOS */
+            gap: 10px;
+            background-color: #e6f2ff;
+            padding: 20px;
+        }
+
+        .item {
+            background-color: #4da6ff;
+            color: white;
+            padding: 20px;
+            width: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .box {
+            border: 2px dashed #999;
+            margin-bottom: 30px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Flexbox: Quem manda é o Pai</h2>
+
+    <h3> Errado: Tentando alinhar no Filho</h3>
+    <div class="box">
+        <div class="item item-errado">1</div>
+        <div class="item item-errado">2</div>
+        <div class="item item-errado">3</div>
+    </div>
+
+    <p>
+        Cada item virou flex de si mesmo,  
+        mas eles NÃO se alinharam entre si.
+    </p>
+
+    <hr>
+
+    <h3> Certo: Alinhando no Pai</h3>
+    <div class="box container-certo">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+
+    <p>
+        Agora sim! O PAI controla o alinhamento dos FILHOS.
+    </p>
+
+</body>
+</html>
+```
+
+Resultado:
+
+![](assets/section2example.png)
+
 ## 2. Flexbox: O Colar de Pérolas (1 Dimensão)
 
 Imagine um colar de pérolas. Você só pode organizar as pérolas em uma linha. Você pode empurrá-las para a esquerda, para a direita ou espalhá-las, mas elas sempre seguem um **único fluxo**.
