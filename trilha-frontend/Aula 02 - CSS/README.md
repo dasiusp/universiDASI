@@ -130,6 +130,7 @@ No arquivo style.css:
 ```
 Resultado:
 
+![](assets/section1example.png)
 
 ## 2. Box Model (O Modelo de Caixa)
 
