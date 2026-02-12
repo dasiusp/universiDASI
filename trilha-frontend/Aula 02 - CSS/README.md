@@ -878,6 +878,150 @@ Você não precisa ser um designer para combinar cores.
         
     - **Adobe Color:** Ótimo para achar cores complementares.
 
+Exemplo geral:
+
+- Em um arquivo .html:
+``` html
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cores no CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Cores no CSS</h1>
+
+    <div class="caixa preto">
+        #000000 — Preto
+    </div>
+
+    <div class="caixa branco">
+        #FFFFFF — Branco
+    </div>
+
+    <div class="caixa vermelho">
+        #FF0000 — Vermelho
+    </div>
+
+    <div class="caixa cinza">
+        #CCCCCC — Cinza Claro
+    </div>
+
+    <hr>
+
+    <h2>RGB e RGBA</h2>
+
+    <div class="caixa rgb">
+        rgb(0, 128, 255)
+    </div>
+
+    <div class="fundo">
+        Fundo com imagem simulada
+        <div class="overlay">
+            Overlay com rgba(0,0,0,0.5)
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>Onde aplicar a cor?</h2>
+
+    <p class="texto-colorido">
+        Esta cor foi aplicada com <strong>color</strong> (texto).
+    </p>
+
+    <div class="fundo-colorido">
+        Este fundo usa <strong>background-color</strong>.
+    </div>
+
+    <div class="borda-colorida">
+        Esta borda usa <strong>border-color</strong>.
+    </div>
+
+</body>
+</html>
+
+  ```
+- No style.css:
+
+``` css
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Base das caixas */
+.caixa {
+    padding: 15px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Hex clássicos */
+.preto {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.branco {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.vermelho {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.cinza {
+    background-color: #CCCCCC;
+    color: #000000;
+}
+
+/* RGB */
+.rgb {
+    background-color: rgb(0, 128, 255);
+    color: #FFFFFF;
+}
+
+/* RGBA (transparência) */
+.fundo {
+    background-color: #999999;
+    padding: 20px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Propriedades de cor */
+.texto-colorido {
+    color: #0066CC;
+}
+
+.fundo-colorido {
+    background-color: #00CC99;
+    padding: 10px;
+    color: #000000;
+}
+
+.borda-colorida {
+    border: 4px solid #FF9900;
+    padding: 10px;
+}
+
+```
+
+Resultado:
+
+![](assets/section5example.png)
 
 ## 6. Exemplo de Código: O "Card" Perfeito
 
