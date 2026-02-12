@@ -128,7 +128,7 @@ Exemplo geral:
 
 Resultado:
 
-![](assets/section2example.png)
+![](assets/section1example.png)
 
 ## 2. Flexbox: O Colar de Pérolas (1 Dimensão)
 
