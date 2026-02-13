@@ -39,3 +39,48 @@ function Botao(props) {
 // Como usamos ele na tela
 <Botao texto="Entrar" />
 <Botao texto="Sair" />
+```
+
+## 4. 📚 Aprofunde-se:
+A documentação oficial é o melhor amigo de um desenvolvedor de software. Consulte sempre que precisar de exemplos detalhados: Aprenda React (Documentação Oficial - react.dev)
+
+## 🚀 Desafio Prático: Tabela de Preços Dinâmica:
+O sistema em que você trabalha precisa lançar uma página de assinaturas com três planos: "Iniciante", "Profissional" e "Enterprise". Copiar e colar código repetido é uma má prática de programação e dificulta a manutenção. Seu objetivo é aplicar os conceitos de componentização para criar uma interface limpa e escalável utilizando React e Tailwind CSS.
+
+Objetivo:
+Criar um componente reutilizável PricingCard e renderizá-lo três vezes na tela principal, passando dados diferentes para cada plano.
+
+## Requisitos do Sistema:
+Criação do Componente Base: Crie a estrutura de um card de preço utilizando classes utilitárias do Tailwind (fundo branco, bordas arredondadas, sombra e interatividade no hover).
+
+Definição de Props: O componente deve esperar receber três propriedades:
+
+titulo (Ex: "Plano Profissional")
+
+preco (Ex: "49")
+
+destaque (Valor booleano: true ou false).
+
+Lógica Visual (Renderização Condicional): Utilize as chaves {} do JSX para criar uma lógica condicional nas classes do Tailwind.
+
+Se a prop destaque for true, o card deve ganhar um fundo azul (bg-blue-600) e texto branco.
+
+Se for false, o card mantém o design padrão claro.
+
+Composição da Tela: No arquivo principal da aplicação (App.jsx), importe o PricingCard e chame-o três vezes lado a lado, passando as Props correspondentes para formar a tabela completa.
+
+## 💻 Como Rodar o Gabarito deste Desafio
+Se você quiser ver o código do desafio funcionando na sua máquina ou testar a base do repositório, siga os passos abaixo. Este projeto utiliza o Vite, a ferramenta padrão da indústria para iniciar projetos React com alta performance.
+
+Passo a passo no Terminal:
+
+Clone o repositório para o seu computador:
+
+```git clone [https://github.com/WalmirFerJr/universiDASI.git](https://github.com/WalmirFerJr/universiDASI.git)```
+
+Instale as dependências (baixa o React, Tailwind e Vite):
+
+```npm install```
+
+```npm run dev```
+Acesse no navegador: O terminal mostrará um link local (geralmente http://localhost:5173/). Segure a tecla Ctrl e clique no link para visualizar o projeto renderizado!
