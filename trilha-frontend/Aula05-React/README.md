@@ -84,3 +84,25 @@ Instale as dependências (baixa o React, Tailwind e Vite):
 
 ```npm run dev```
 Acesse no navegador: O terminal mostrará um link local (geralmente http://localhost:5173/). Segure a tecla Ctrl e clique no link para visualizar o projeto renderizado!
+
+## 🔍 Observações: Caso encontre dificuldades ao rodar o projeto
+
+Para garantir que a sua experiência com o React e Tailwind seja a melhor possível, preparamos algumas notas sobre a configuração do seu ambiente local:
+
+### 1. Requisito de Versão do Node.js
+Este projeto utiliza recursos modernos do Vite e React. Certifique-se de que sua versão do **Node.js é a v18 ou superior**. 
+* **Dica:** Você pode conferir sua versão digitando `node -v` no terminal. Se precisar atualizar no Linux/WSL, recomendamos o uso do `nvm` (Node Version Manager).
+
+### 2. Padrão de Nomenclatura e Case Sensitivity (Linux/WSL)
+Se você estiver utilizando ambientes baseados em Linux, como o WSL, lembre-se que o sistema diferencia letras maiúsculas de minúsculas. 
+* **Atenção:** Garanta que o nome do arquivo (ex: `PricingCard.jsx`) seja idêntico ao que foi escrito no comando `import`. Recomendamos sempre incluir a extensão `.jsx` no final do caminho para facilitar a identificação pelo Vite.
+
+### 3. Sincronização do Tailwind CSS
+Caso os estilos (cores, arredondamentos) não apareçam de imediato, pode ser necessário conferir a integração com o PostCSS:
+* **Dependência:** Verifique se o pacote `@tailwindcss/postcss` está listado no seu `package.json`.
+* **Configuração:** O arquivo `postcss.config.js` deve estar configurado para utilizar este plugin, permitindo que o navegador interprete as classes do Tailwind corretamente.
+
+### 4. Importância do manifesto (package.json)
+O arquivo `package.json` na raiz é fundamental. Ele funciona como o manual de instruções que diz ao comando `npm install` exatamente quais bibliotecas baixar para que o projeto funcione na sua máquina.
+
+---
