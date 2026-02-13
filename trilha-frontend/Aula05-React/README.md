@@ -105,4 +105,7 @@ Caso os estilos (cores, arredondamentos) não apareçam de imediato, pode ser ne
 ### 4. Importância do manifesto (package.json)
 O arquivo `package.json` na raiz é fundamental. Ele funciona como o manual de instruções que diz ao comando `npm install` exatamente quais bibliotecas baixar para que o projeto funcione na sua máquina.
 
+### 📸 Resultado Esperado
+![Preview da Tabela de Preços](assets/resultado-final.png)
+
 ---
