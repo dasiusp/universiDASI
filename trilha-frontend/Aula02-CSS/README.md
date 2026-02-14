@@ -364,7 +364,7 @@ Este é o campeão. Classes funcionam como "crachás" ou "uniformes". Você pode
 
 ---
 
-### 3.4 Outros Seletores Úteis (O Pulo do Gato)
+### 3.4 Outros Seletores Úteis 
 
 Você não precisa decorar tudo, mas esses três vão salvar sua vida:
 
@@ -408,7 +408,7 @@ header a {
 
 ---
 
-### 3.5 Quem ganha a briga? (Especificidade)
+### 3.5 Especificidade (Quem ganha a briga?)
 
 Imagine que você tem o seguinte código conflitante. O título será vermelho ou azul?
 
