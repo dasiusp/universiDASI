@@ -212,7 +212,7 @@ Agora, imagine o alinhamento vertical (altura). Como os itens se comportam em re
 
 Sei como tudo isso pode parecer ser muita coisa e complicado de se entender de primeira kkkkk, caso tenha restado alguma dúvida, espero que essa imagem possa ajudar um pouco a esclarecer a diferenças de cada um:
 
-![](assets/contentExample.png)
+![](assets/contentExample.jpeg)
 
 ### 2.5 O Espaçamento Moderno (`gap`)
 
