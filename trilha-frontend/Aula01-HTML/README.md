@@ -217,6 +217,8 @@ O HTML Semântico serve para dar **significado** a cada pedaço da página.
     
 	**Resumo:** O Google usa a estrutura do seu HTML para decidir se o seu site é relevante ou não. Código organizado (`<header>`, `<main>`, `<h1>`) significa melhor ranqueamento.
 
+
+
 3. **Organização:** Por fim e de forma mais breve, mas não menos importante, também tem a questão da organização. Para você e sua equipe, por exemplo, é muito mais fácil dar manutenção num código onde você lê `<footer class="contato">` do que `<div class="div-34">`.
     
 
@@ -430,9 +432,6 @@ Aqui está um exemplo de um arquivo `index.html` completo e semântico.
 Resultado ao abrir o arquivo `index.html`:
 
 ![](assets/ExemploAula01.png)
-
-
-
 
 
 ---
