@@ -11,8 +11,8 @@ Cada pasta neste repositório representa um degrau na sua evolução. Entre em c
 * **[Aula 01 - HTML](./Aula01-HTML)**: O esqueleto da web. Aqui desmistificamos as tags, entendemos a importância do HTML Semântico para SEO e Acessibilidade, e criamos nossa primeira estrutura de página.
 * **[Aula 02 - CSS](./Aula02-CSS)**: Foco em entender o Box Model, seletores, importação de fontes e manipulação de cores.
 * **[Aula 03 - Flexbox e Grid](./Aula03-Flexbox)**: Aprenderemos a organizar elementos na tela, alinhar conteúdos de forma moderna e criar layouts responsivos que funcionam perfeitamente em celulares usando Media Queries.
-* **[Aula 04 - Tailwind CSS](./Aula04-tailwind)**: Introdução ao conceito de "Utility-First CSS", estilizando aplicações diretamente pelo HTML com classes utilitárias.
-* **[Aula 05 - React](./Aula05-React)**: Deixamos as páginas estáticas para trás e entramos no mundo das interfaces dinâmicas, aprendendo sobre Componentes, Estado, etc.
+* **[Aula 04 - Tailwind CSS](./Aula04-tailwind)**: Introdução ao conceito de "Utility-First CSS", aprenda a criar designs modernos e responsivos de forma rápida, direto do arquivo HTML, sem criar infinitas linhas de CSS.
+* **[Aula 05 - React](./Aula05-React)**: Deixamos as páginas estáticas para trás e aprendemos a pensar em Componentes (peças de LEGO reutilizáveis) e Props, utilizando a ferramenta Vite para altíssima performance.
 * **[Aula 06 - Next.js](./Aula06-NextJS)** *(Em breve)*: 
 
 ## Como utilizar este repositório?
@@ -24,4 +24,8 @@ Cada pasta neste repositório representa um degrau na sua evolução. Entre em c
 ## Pré-requisitos
 
 * Para as Aulas 01 a 03: Apenas um navegador (Google Chrome, Firefox, etc.) e um editor de código (recomendamos o **VS Code**).
-* Para as Aulas 04 em diante: Será necessário ter o **Node.js** instalado na sua máquina para gerenciar os pacotes e rodar os servidores locais de desenvolvimento.
+* Para as Aulas 04 em diante: Você precisa ter o Node.js instalado (Recomendamos a versão v18 ou superior). Você pode checar sua versão digitando node -v no terminal.
+
+- O arquivo package.json em cada pasta é vital, pois ele diz ao comando npm install exatamente o que baixar para o projeto funcionar.
+
+- Usuários Linux/WSL: Lembrem-se que o sistema diferencia maiúsculas de minúsculas no nome dos arquivos (ex: PricingCard.jsx não é o mesmo que pricingcard.jsx).
