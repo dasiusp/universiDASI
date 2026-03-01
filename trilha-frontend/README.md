@@ -32,13 +32,15 @@ Você pode simplesmente criar uma pasta no seu computador, abrir no VS Code e cr
 **Fase 2: O Avançado (Aulas 04 em diante)**
 A partir da introdução ao Tailwind e ao React, os projetos ficam mais complexos. Você precisará baixar o repositório via terminal para instalar as dependências usando o Node.js.
 
-1. Clone o repositório completo:
+1. Clone o repositório completo, por exemplo, se você desejar clonar o repositório em uma pasta chamada Frontend que você criou/deixou no seu Desktop (Área de Trabalho), faça isso após abrir o seu terminal:
 ```bash
-git clone [https://github.com/dasiusp/universiDASI.git](https://github.com/dasiusp/universiDASI.git)
+cd Desktop
+git clone https://github.com/dasiusp/universiDASI
 ```
 
 2. Navegue até a trilha e a aula desejada (exemplo com a Aula 05):
 ``` bash
+cd Desktop
 cd universiDASI
 cd trilha-frontend
 cd Aula05-React
