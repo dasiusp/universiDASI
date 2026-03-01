@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório da nossa trilha de aprendizado Front-end no universiDASI! 
 
-Este material foi desenhado para guiar você do absoluto zero até o uso dos frameworks mais modernos e requisitados pelo mercado. Acreditamos que não adianta aprender as ferramentas complexas sem antes construir uma fundação sólida. Por isso, nossa jornada é progressiva e focada em entender o "porquê" por trás de cada linha de código.
+Este material foi desenhado para guiar você do absoluto zero até o uso dos frameworks mais modernos. Acreditamos que não adianta aprender as ferramentas complexas sem antes construir uma fundação sólida. Por isso, nossa jornada é progressiva e focada em entender o "porquê" por trás de cada linha de código.
 
 ## O Mapa da Trilha
 
@@ -19,7 +19,39 @@ Cada pasta neste repositório representa um degrau na sua evolução. Entre em c
 
 1.  **Siga a ordem cronológica:** Se você é iniciante, não pule direto para o React ou Tailwind. Uma base sólida em HTML e CSS puro é o que vai te salvar quando os frameworks falharem.
 2.  **Leia a teoria:** Cada pasta possui seu próprio arquivo detalhado com explicações passo a passo.
-3.  **Faça os desafios:** Programação infelizmente não se aprende apenas lendo. Por conta disso, no final de cada aula teórica, deixamos um desafio prático para fixar o conhecimento e para que vocês possam se divertir e brincar um pouco com o que aprenderam:D
+3.  **Faça os desafios:** Programação infelizmente não se aprende apenas lendo. Por conta disso, no final de cada aula teórica, deixamos um desafio prático para fixar o conhecimento e para que vocês possam se divertir e brincar um pouco com o que aprenderam :D
+
+## Como utilizar os materiais e rodar os projetos
+
+A forma de acompanhar as aulas e testar os códigos muda conforme você avança na trilha:
+
+**Fase 1: O Básico (Aulas 01 a 03)**
+Para aprender HTML, CSS e Flexbox/Grid, você não precisa clonar este repositório via terminal. 
+Você pode simplesmente criar uma pasta no seu computador, abrir no VS Code e criar seus próprios arquivos `.html` e `.css` para acompanhar a teoria. 
+
+**Fase 2: O Avançado (Aulas 04 em diante)**
+A partir da introdução ao Tailwind e ao React, os projetos ficam mais complexos. Você precisará baixar o repositório via terminal para instalar as dependências usando o Node.js.
+
+1. Clone o repositório completo:
+```bash
+git clone [https://github.com/dasiusp/universiDASI.git](https://github.com/dasiusp/universiDASI.git)
+```
+
+2. Navegue até a trilha e a aula desejada (exemplo com a Aula 05):
+``` bash
+cd universiDASI
+cd trilha-frontend
+cd Aula05-React
+```
+
+3. Instale as dependências e rode o servidor (Vite):
+
+``` bash
+npm install
+npm run dev
+```
+
+O terminal mostrará um link local (geralmente http://localhost:5173/). Segure a tecla Ctrl e clique no link para visualizar o projeto renderizado no seu navegador.
 
 ## Pré-requisitos
 
