@@ -83,3 +83,9 @@ npx create-next-app@latest meu-projeto-next
 ```
 
 > Aceite as opcoes de usar Tailwind CSS e App Router quando o terminal perguntar.
+
+---
+
+## Resultado esperado
+
+![Resultado esperado](../Aula05-React/assets/resultado-final.png)
