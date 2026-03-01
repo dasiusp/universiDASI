@@ -88,4 +88,4 @@ npx create-next-app@latest meu-projeto-next
 
 ## Resultado esperado
 
-![Resultado esperado](../Aula05-React/assets/resultado-final.png)
+![Resultado esperado](../Aula06-Next/assets/resultado-esperado.png)
