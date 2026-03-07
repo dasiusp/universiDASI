@@ -13,7 +13,7 @@ Cada pasta neste repositório representa um degrau na sua evolução. Entre em c
 * **[Aula 03 - Flexbox e Grid](./Aula03-Flexbox)**: Aprenderemos a organizar elementos na tela, alinhar conteúdos de forma moderna e criar layouts responsivos que funcionam perfeitamente em celulares usando Media Queries.
 * **[Aula 04 - Tailwind CSS](./Aula04-tailwind)**: Introdução ao conceito de "Utility-First CSS", aprenda a criar designs modernos e responsivos de forma rápida, direto do arquivo HTML, sem criar infinitas linhas de CSS.
 * **[Aula 05 - React](./Aula05-React)**: Deixamos as páginas estáticas para trás e aprendemos a pensar em Componentes (peças de LEGO reutilizáveis) e Props, utilizando a ferramenta Vite para altíssima performance.
-* **[Aula 06 - Next.js](./Aula06-NextJS)** *(Em breve)*: 
+* **[Aula 06 - Next.js](./Aula06-Next)**: O passo além do React para aplicações em produção. Entenda a diferença entre Server e Client Components, crie rotas automaticamente com o App Router e estruture páginas com Layouts Globais. 
 
 ## Como utilizar este repositório?
 
@@ -54,6 +54,8 @@ npm run dev
 ```
 
 O terminal mostrará um link local (geralmente http://localhost:5173/). Segure a tecla Ctrl e clique no link para visualizar o projeto renderizado no seu navegador.
+
+> **💡 Nota para a Aula 06 (Next.js):** Se você for fazer o desafio do zero, a aula ensina a usar o comando `npx create-next-app@latest` para gerar toda a estrutura inicial automaticamente, sem precisar do `npm install` manual. Use os passos acima apenas se quiser rodar o gabarito pronto!
 
 ## Pré-requisitos
 
