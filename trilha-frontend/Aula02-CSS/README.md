@@ -1,6 +1,6 @@
 # Aula 02 - CSS
 
-## 1. O que é o CSS? (A "Roupa" do Site)
+## 1. O que é o CSS? 
 
 HTML é o substantivo ("isto é um botão"). CSS é o adjetivo ("este botão é azul e redondo"). A sigla significa **C**ascading **S**tyle **S**heets (Folhas de Estilo em Cascata).
 
@@ -138,7 +138,7 @@ Aqui está o segredo que separa os amadores dos profissionais: **Na web, tudo é
 
 Mesmo que você desenhe um círculo (`border-radius: 50%`) ou apenas uma letra "A", para o navegador, aquilo ocupa um espaço quadrado.
 
-### 2.1 As 4 Camadas da Caixa (Analogia do Quadro)
+### 2.1 As 4 Camadas da Caixa 
 
 Vamos imaginar que cada elemento do seu site é um **Quadro valioso pendurado numa parede**:
 
@@ -168,7 +168,7 @@ Sei que a definição desses 4 no começo pode ser meio confusa (eu pessoalmente
 
 ![](assets/boxModelExample.png)
 
-Fonte: https://www.dio.me/articles/html-5-e-css-3
+Fonte: https://www.dio.me/articles/html-5-e-css-3 + dica do meu mano Alisson
 
 ### 2.2 Padding vs Margin
 
@@ -302,7 +302,7 @@ Para corrigir isso, usamos um "código mágico" no início de todo CSS profissio
 }
 ```
 
-Isso diz ao navegador: _"Se eu falei que a largura é 100px, quero que o tamanho total final seja 100px. Se vira ae para ajustar o padding dentro disso!"_
+Isso diz ao navegador: _"Se eu falei que a largura é 100px, quero que o tamanho total final seja 100px. Se vira ae para ajustar o padding dentro disso meu chapa!"_
 
 
 ## 3. Seletores: Quem eu estou estilizando?
@@ -393,7 +393,7 @@ h1, h2, p {
 }
 ```
 
-#### C. Descendência (O Espaço )
+#### C. Descendência (O Espaço)
 
 E se eu quiser pintar _apenas_ os links que estão dentro do rodapé, e não os do topo? Você usa o "Caminho": **Pai** (espaço) **Filho**.
 

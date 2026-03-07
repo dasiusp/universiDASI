@@ -220,6 +220,9 @@ O HTML Semântico serve para dar **significado** a cada pedaço da página.
 
 
 3. **Organização:** Por fim e de forma mais breve, mas não menos importante, também tem a questão da organização. Para você e sua equipe, por exemplo, é muito mais fácil dar manutenção num código onde você lê `<footer class="contato">` do que `<div class="div-34">`.
+
+
+![](assets/htmlSemantico.jpg)
     
 
 ### 4.2 As Tags Principais 

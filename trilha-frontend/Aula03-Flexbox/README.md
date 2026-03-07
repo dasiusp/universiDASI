@@ -1,6 +1,6 @@
 # Aula 03 - Flexbox
 
-## 1. O Fim das Gambiarras (Layout Moderno)
+## 1. Layout Moderno
 
 ### 1.1 O Problema: A "Gravidade" do HTML
 
@@ -20,13 +20,13 @@ Antigamente, usávamos "gambiarras":
 
 **A Boa Notícia:** Esqueça tudo isso. Hoje temos **Flexbox** e **CSS Grid**.
 
-### 1.2 A Regra de Ouro: Pai e Filho (O Marionetista)
+### 1.2 A Regra do Pai e Filho 
 
 Essa é a regra mais importante desta aula. Se você entender isso, você entendeu Flexbox.
 
 No CSS Layout, nós **não** movemos os elementos individualmente. Nós damos ordens ao **Container** (a caixa que segura eles).
 
-> **A Analogia do Marionetista:** Imagine que você tem 3 bonecos (Filhos). Você não empurra os bonecos com a mão. Você mexe a cruz de madeira (Pai) e as cordas movem os bonecos automaticamente.
+Imagine que você tem 3 bonecos (Filhos). Você não empurra os bonecos com a mão. Você mexe a cruz de madeira (Pai) e as cordas movem os bonecos automaticamente.
 
 - **Container (Pai):** É onde você aplica o comando `display: flex` ou `display: grid`.
     
@@ -740,7 +740,7 @@ Não existem números mágicos oficiais. Esses valores são **guias comuns** usa
 - **Monitores Grandes:** `min-width: 1200px`
     
 
-### 5.4 A Estratégia de Guerra: Desktop-First vs Mobile-First
+### 5.4 Desktop-First vs Mobile-First
 
 Existem duas formas de pensar o CSS:
 
