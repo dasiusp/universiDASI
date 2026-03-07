@@ -62,4 +62,15 @@ app.patch("/atualizar-lista/:campo", (req, res) => {
     } 
 });
 
+app.delete("/deletar-ultimo-item/:campo", (req, res) => {
+    try {
+        const campo = req.params.campo;
+        mercado[campo].pop();
+
+        res.status(200).json({error: `Último item da seção de ${campo} foi deletado!`})
+    } catch (err) {
+        return res.status(500).json({error: "Erro ao deletar o último elemento!"});
+    }
+});
+
 app.listen(8000);
