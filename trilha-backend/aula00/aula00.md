@@ -1,7 +1,7 @@
 # Como funciona a internet
 Você acessando o Google, Youtube e até mesmo o Instagram, já se questionou em como funciona eles?
 
-Bem, a internet funciona como um gigantesca teia com várias intersecções e caminhos. Cada intersecção é um computador que faz a tarefa que foi mandando para fazer, e os caminhos conecta cada um desses computadores. Então, quando você acessa o Youtube para ver Ordem Paranormal vídeos de gatinhos, acaba por pedir para os computadores que formam o Youtube mandar esse vídeo de gatinhos.
+Bem, a internet funciona como um gigantesca teia com várias intersecções e caminhos. Cada intersecção é um computador que faz a tarefa que foi mandando para fazer, e os caminhos conecta cada um desses computadores. Então, quando você acessa o Youtube para ver ~~Ordem Paranormal~~ vídeos de gatinhos, acaba por pedir para os computadores que formam o Youtube mandar esse vídeo de gatinhos.
 
 Mas qual caminhos eles fazem? Bem, isso é o mais impressionante! Eles não só viajam no ar até os computadores de Youtube, eles passam por cabos quilométricos submarinos até chegar onde deve, que pode ser um só lugar ou pode ser vários!
 
@@ -9,7 +9,7 @@ Se levar informação para vários lugares fosse o única coisa que acontece, j�
 
 Computadores não entendem a gente, ou melhor, nosso idioma, eles apenas entendem sequência de números (no nível de máquina física, o famoso hardware, o seu idioma é o binário). Na Internet, os computadores conversam entre si usando um endereço IP (Internet Protocol), que são sequências de números que indicam o endereço daquela máquina na rede (para melhor segurança, os IPs do Youtube, por exemplo, não são fixo e muda toda hora, mas para ter uma noção: 208.65.153.238 era um IP do Youtube).
 
-Mas por que eu digito www.youtube.com e não um número difícil de lembrar? Então, meu pequeno gafanhoto (uff refereces), já pensaram nisso anos atrás e criaram o DNS (Domain Name System), que acaba por traduzir o seu texto para um IP e vice-versa!
+Mas por que eu digito www.youtube.com e não um número difícil de lembrar? Então, meu pequeno gafanhoto ~~(uff refereces)~~, já pensaram nisso anos atrás e criaram o DNS (Domain Name System), que acaba por traduzir o seu texto para um IP e vice-versa!
 
 Mas por que tenho que escrever www.youtube.com/core para acessar uma página?
 
