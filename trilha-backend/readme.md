@@ -2,7 +2,10 @@
 Olá meus queridas e queridos! Este repositório tem como objetivo ensinar os iniciantes em programação em como desenvolver um backend básico.
 Mostraremos ferramentas principais usado para o desenvolvimento e teste do backend.
 
-As aulas desse repositório é montadas em 4 aulas:
+As aulas desse repositório é montadas em 4 aulas + um resumo:
+
+## [Resumo](./resumo.md)
+Aqui tem o resumo de todas as aulas em um única arquivo.
 
 ## [Aula 00 - Conhecendo a Internet](./aula00/)
 
