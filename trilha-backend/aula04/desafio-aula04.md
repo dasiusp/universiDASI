@@ -37,5 +37,7 @@ Vai ser avaliado:
 - Código limpo;
 - Documentação;
 - Organização de pastas.
+- Além, claro, do que é pedido pelo enunciado.
 
-Além, claro, do que é pedido pelo enunciado.
+## EXTRA (opcional)
+Utilize Orientação à Objeto para esse desafio e compare com o código procedural (sem Orientação à Objeto).
